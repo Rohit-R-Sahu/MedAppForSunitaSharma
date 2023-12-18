@@ -1,0 +1,69 @@
+body{
+  background-image: url('https://img.freepik.com/free-vector/clean-medical-background_53876-97927.jpg');
+  background-size: cover;
+ 
+}
+
+.home-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .home-container h2 {
+    padding: 5px 0px;
+    margin-top: -3px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+    box-shadow:5px 10px 10px #b4d974;
+    /* line-height: 30px; */
+  }
+  
+  .medication-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .medication-item {
+    color: white;
+    border: 1px solid #e7c1c1;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #4ea4c3;
+    box-shadow: 5px 10px 10px #b0cd9d;
+    position: relative;
+  }
+  
+  .medication-item span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .no-medications {
+    text-align: center;
+    font-size: 18px;
+    color: #0b0b0b;
+    margin-top: 20px;
+  }
+
+  .delbtn{
+    position: absolute;
+    top: 55px;
+ right: 20px;
+    background-color: red;
+    color: white;
+   padding: 2px 20px;
+   border-radius: 5px;
+
+  }
+
+  .delbtn:hover{
+    background-color: rgb(167, 3, 3);
+    color: white;
+    cursor: pointer;
+ 
+  }
+  

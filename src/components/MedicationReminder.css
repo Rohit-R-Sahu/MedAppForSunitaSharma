@@ -1,0 +1,80 @@
+/* MedicationReminder.css */
+
+.medicationremindercontainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .medicationremindercontainer h2 {
+    padding: 5px 0px;
+    margin-top: -3px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-align: center;
+    box-shadow:5px 10px 10px #0b0b0b;
+  }
+  
+  .medicationremindercontainer p {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  
+
+  .medicationlist {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .medicationitem {
+    position: relative;
+    color: white;
+    border: 1px solid #0c5a55;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #0d4f6b;
+    box-shadow: 5px 10px 10px #88d398;
+  }
+  
+  .medicationitem span {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .nomedications {
+    text-align: center;
+    font-size: 18px;
+    color: #0b0b0b;
+    margin-top: 20px;
+  }
+
+  .takenbtn{
+    position: absolute;
+    top: 55px;
+    right: 20px;
+    background-color: rgb(3, 205, 16);
+    color: white;
+    padding: 2px 20px;
+    border-radius: 5px;
+
+  }
+
+  .takenbtn:hover{
+    background-color: rgb(13, 90, 1);
+    color: white;
+    cursor: pointer;
+ 
+  }
+
+  .tomtakenbtn{
+    position: absolute;
+    top: 55px;
+    right: 20px;
+    background-color: rgb(97, 97, 97);
+    color: white;
+    padding: 2px 20px;
+    border-radius: 5px;
+    text-decoration: line-through;
+  }

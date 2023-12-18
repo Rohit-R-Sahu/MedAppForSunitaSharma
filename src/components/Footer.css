@@ -1,0 +1,15 @@
+.footer {
+    background-color: #efebeb;
+    color: #0e0101;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .footer-content {
+    font-size: 16px;
+  }
+  
